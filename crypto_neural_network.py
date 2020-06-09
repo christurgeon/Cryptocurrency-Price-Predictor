@@ -10,6 +10,13 @@ N_PERIODS_IN  = 30 # Number of periods looking backwards for training
 N_PERIODS_OUT = 5  # Number of periods ahead to predict
 N_FEATURES    = 1  # Number of features to train (price)
 
+
+def scale(df):
+    # Use this function to scale data to [0,1] range
+    # y = (x - min) / (max - min)
+    pass
+
+
 def preprocess(df):
     pass
 
